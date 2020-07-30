@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        body {
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .head {
+            float: right;
+            padding: 20px 30px;
+        }
+
+        header > a {
+            margin-left: 20px;
+            color: unset;
+            text-decoration: none;
+        }
+
+        .tbl1 {
+            background: #4285f4;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: unset;
+        }
+        
+        .test {
+            width: 40%;
+            height: 50px;
+            border: 1px solid #ccc;
+            border-radius: 100px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+        }
+
+        input[type=text]{
+            background-color: transparent;
+            border: none;
+            margin: 0;
+                margin-top: 0px;
+            padding: 0;
+            color: rgba(0,0,0,.87);
+            word-wrap: break-word;
+            outline: none;
+            display: flex;
+            flex: 100%;
+            margin-top: -37px;
+            height: 34px;
+            font-size: 16px;
+            margin: auto;
+        }
+
+        input[type=submit]{
+            color: #555;
+            background-color: #f0f0f0;
+            padding: 12px 20px;
+            border: transparent;
+            border-radius: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="head">
+        <a href="#">Gmail</a> 
+        <a href="#">Gambar</a> 
+        <a href="#" class="tbl1">Login</a>
+    </header>
+    <center>
+        <div style="clear: both; padding-top: 164px;">
+            <img src="google.png" alt="google"><br>
+            <div class="test">
+                <!-- search icon -->
+                <div style="width: 23px; margin: auto 12px; margin-top: 12px; margin-left: 17px;">
+                    <span style="color: #9aa0a6;">
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    </span>
+                </div>
+                <!-- search bar -->
+                <input type="text">
+            </div>
+                <div style="display: inline;">
+                    <input type="submit" value="Penelusuran Google">
+                    <input type="submit" value="Saya Lagi Beruntung" style="margin-left:10px;">
+                </div><br>
+            <div style="margin-top: 30px;">
+                Google menawarkan: <a href="#">English</a>  <a href="#">Basa Bali</a>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
